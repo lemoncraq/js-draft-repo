@@ -55,6 +55,8 @@ module.exports = {
         }),
     ],
     devServer: {
+        open: true,
+        hot: true,
         static: {
             directory: path.join(__dirname, "dist"),
         },
